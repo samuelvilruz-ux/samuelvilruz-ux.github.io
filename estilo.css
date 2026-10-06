@@ -24,15 +24,15 @@ header {
     font-size:30px;
 }
 
-nav ul {
+.listas ul {
     align-items:center; 
     margin:0;
     padding:0;
 }
-nav li {
+.listas li {
     display:inline-block;
 }
-nav a {
+.listas a {
     color:white;
     text-decoration:none;
     padding:10px 15px;
