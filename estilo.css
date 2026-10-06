@@ -9,7 +9,7 @@ body {
 }
 /*Diseño del encabezado de la web*/
 header {
-    background-color:rgba(17, 17, 17, 0.95);
+    background-color:rgb(36, 35, 35);
     border-bottom:4px solid #e10600;
     align-items:center;
     padding:15px 30px;
@@ -41,7 +41,7 @@ nav a {
 
 /*Diseño del pie de página de la web*/
 footer {
-    background-color:rgba(17, 17, 17, 0.95);
+    background-color:rgb(36, 35, 35);
     border-top:4px solid #e10600; 
     color:white;
     text-align:center;
