@@ -14,10 +14,12 @@ header {
     align-items:center;
     padding:15px 30px;
     gap:150px;
+    display: flex;
 }
 .logo{
     align-items:center;
     gap:15px;
+    display: flex;
 }
 .logo h1 {
     color:white;
@@ -28,9 +30,13 @@ header {
     align-items:center; 
     margin:0;
     padding:0;
+    display: flex;
 }
 .listas li {
     display:inline-block;
+}
+.listas li:hover{
+    background-color: #e10600;
 }
 .listas a {
     color:white;

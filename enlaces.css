@@ -1,0 +1,104 @@
+body {
+    background-image:url(imagenes/fondo_web.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    margin:0;
+    font-family:system-ui;
+}
+/*Diseño del encabezado de la web*/
+header {
+    background-color:rgb(36, 35, 35);
+    border-bottom:4px solid #e10600;
+    align-items:center;
+    padding:15px 30px;
+    gap:150px;
+    display: flex;
+}
+.logo{
+    align-items:center;
+    gap:15px;
+    display: flex;
+}
+.logo h1 {
+    color:white;
+    font-size:30px;
+}
+
+.listas ul {
+    align-items:center; 
+    margin:0;
+    padding:0;
+    display: flex;
+}
+.listas li {
+    display:inline-block;
+}
+.listas li:hover{
+    background-color: #e10600;
+}
+.listas a {
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:4px;
+}
+/*parte Css de la página enlaces*/
+.link h1{
+    color: red;
+    font-size: 20px;
+}
+.link h2{
+    color: aliceblue;
+    font-size: 15px;
+}
+.link a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:4px;
+}
+#Antonio{
+    background-color: rgb(36, 35, 35);
+    text-align:center;
+    border:5px solid  #e10600;;
+    width:250px;
+    padding:10px 10px 10px 10px;
+    margin:10px auto;
+}
+#Ivan{
+    background-color: rgb(36, 35, 35);
+    text-align:center;
+    border:5px solid  #e10600;;
+    width:250px;
+    padding:10px 10px 10px 10px;
+    margin:10px auto;
+}
+#Diego{
+    background-color: rgb(36, 35, 35);
+    text-align:center;
+    border:5px solid  #e10600;;
+    width:250px;
+    padding:10px 10px 10px 10px;
+    margin:10px auto;
+}
+#Aaron{
+    background-color: rgb(36, 35, 35);
+    text-align:center;
+    border:5px solid  #e10600;;
+    width:250px;
+    padding:10px 10px 10px 10px;
+    margin:10px auto;
+}
+/*Diseño del pie de página de la web*/
+footer {
+    background-color:rgb(36, 35, 35);
+    border-top:4px solid #e10600; 
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:15px;
+    font-weight:bold;
+}
