@@ -37,12 +37,38 @@ header {
 }
 .listas li:hover{
     background-color: #e10600;
+    border-radius: 10px;
 }
 .listas a {
     color:white;
     text-decoration:none;
     padding:10px 15px;
     border-radius:4px;
+}
+/*Diseño Body de la web*/
+#proxima-carrera{
+    background-color: rgb(36, 35, 35);
+    width:700px;
+    padding:10px 10px 10px 10px;
+    margin:10px auto;
+    border-bottom: 4px solid #e10600;
+    border-radius: 3%;
+    display: flex;
+}
+.primera-parte{
+    text-align: justify;
+}
+.texto-primero h1{
+    color: red;
+    font-size: 30px;
+}
+.texto-primero h2{
+    color:grey;
+    font-size: 15px;
+}
+.texto-primero p{
+    color:white;
+    padding:10px 15px;
 }
 
 /*Diseño del pie de página de la web*/
