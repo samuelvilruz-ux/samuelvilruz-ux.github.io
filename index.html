@@ -19,6 +19,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="imagenes/fondo_web.webp" as="image">
 </head>
 <body>
     <header>
@@ -27,7 +28,7 @@
             <h1>Fórmula 1</h1>
         </div>
         <nav>
-            <ul class="listas">
+            <ol class="listas">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="circuitos.html">Circuitos</a></li>
                 <li><a href="escuderias.html">Escuderias</a></li>
@@ -35,18 +36,41 @@
                 <li><a href="calendario.html">Calendario</a></li>
                 <li><a href="donde_ver.html">Donde ver</a></li>
                 <li><a href="enlaces.html">Enlaces</a></li>
-            </ul>
+            </ol>
         </nav>
     </header>
     <main>
         <section class="primera-parte">
             <article  id="proxima-carrera">
                 <div class="texto-primero">
-                    <h1>Proxima Carrera</h1>
-                    <h2>Todo al límite de lo imposible</h2>
-                    <p>No te pierdas nada de la Fórmula1, mira cada carrera, cada piloto conduciendo con su monoplaza, compitiendo por quién va a quedar en primer lugar, quién será el mejor piloto, asi que no te olvides de ver y vivir la próxima carrera en directo.</p>
+                    <h2>Próxima Carrera</h2>
+                    <h3>Todo al límite de lo imposible</h3>
+                    <p>No te pierdas nada de la Fórmula 1, mira cada carrera, cada piloto conduciendo con su monoplaza, compitiendo por quién va a quedar en primer lugar, quién será el mejor piloto, asi qué no te olvides de ver y vivir la próxima carrera en directo.</p>
                 </div>
-                <img src="imagenes/calendario.png"Imagen calendario" width="400px">
+                <img src="imagenes/calendario.webp" fetchpriority="high" alt="Imagen calendario de circuitos Fórmula 1" width="400px">
+            </article>
+        </section>
+        <section class="segunda-parte">
+            <h2>Podium Temporada 2026</h2>
+            <article class="podium">
+                <div id="Russell">
+                    <img src="imagenes/George_Russell.webp" alt="George Russell" width="250px" height="200px">
+                    <h3>Puesto 2</h3>
+                    <h4>George Russell</h4>
+                    <p>Escuderia mercedes</p>
+                </div>
+                <div id="Antonelli">
+                    <img src="imagenes/Kimi_Antonelli.webp" alt="Kimi Antonelli" width="250px" height="200px">
+                    <h3>Puesto 1</h3>
+                    <h4>Kimi Antonelli</h4>
+                    <p>Escuderia Mercedes</p>
+                </div>
+                <div id="Hamilton">
+                    <img src="imagenes/lewis_hamilton.webp" alt="Lewis Hamilton"width="170px" height="200px">
+                    <h3>Puesto 3</h3>
+                    <h4>Lewis Hamilton</h4>
+                    <p>Escuderia Ferrari</p>
+                </div>
             </article>
         </section>
     </main>
