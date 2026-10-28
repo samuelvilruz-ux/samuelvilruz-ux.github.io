@@ -5,7 +5,7 @@ body {
     background-size:cover;
     background-attachment:fixed;
     margin:0;
-    font-family:system-ui;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /*Diseño del encabezado de la web*/
 header {
@@ -26,7 +26,7 @@ header {
     font-size:30px;
 }
 
-.listas ul {
+.listas ol {
     align-items:center; 
     margin:0;
     padding:0;
@@ -37,6 +37,7 @@ header {
 }
 .listas li:hover{
     background-color: #e10600;
+    border-radius: 10px;
 }
 .listas a {
     color:white;
@@ -44,6 +45,7 @@ header {
     padding:10px 15px;
     border-radius:4px;
 }
+
 
 /*Diseño del pie de página de la web*/
 footer {
