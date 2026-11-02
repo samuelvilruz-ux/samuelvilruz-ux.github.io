@@ -47,8 +47,18 @@ header {
 }
 /*Diseño Body de la web*/
 /*Sección 1 de inicio*/
+.primera-parte{
+    background-color: rgba(25, 25, 25, 0.88);
+    text-align: center;
+    border: 2px solid #e10600;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 20px;
+}
 #proxima-carrera{
-    background-color: rgb(36, 35, 35);
+    background-color: #292929;
     width:700px;
     padding:10px 10px 10px 10px;
     margin:10px auto;
@@ -75,6 +85,22 @@ header {
     text-align: justify;
 }
 /*Sección 2 de inicio*/
+.segunda-parte{
+    background-color: rgba(25, 25, 25, 0.88);
+    text-align: center;
+    border: 2px solid #e10600;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.segunda-parte h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
 .segunda-parte h3{
     color: red;
     font-size: 20px;
@@ -90,10 +116,14 @@ header {
     border-radius:4px;
 }
 .podium{
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 10px;
 }
 #Russell{
-    background-color: rgb(36, 35, 35);
+    background-color: #292929;
     text-align:center;
     border:5px solid  #e10600;;
     width:250px;
@@ -101,7 +131,7 @@ header {
     margin:10px auto;
 }
 #Antonelli{
-    background-color: rgb(36, 35, 35);
+    background-color: #292929;
     text-align:center;
     border:5px solid  #e10600;;
     width:250px;
@@ -109,13 +139,52 @@ header {
     margin:10px auto;
 }
 #Hamilton{
-    background-color: rgb(36, 35, 35);
+    background-color: #292929;
     text-align:center;
     border:5px solid  #e10600;;
     width:250px;
     padding:10px 10px 10px 10px;
     margin:10px auto;
 }
+/*Sección 3 de inicio*/
+.tercera-parte{
+    background-color: rgba(25, 25, 25, 0.88);
+    text-align: center;
+    border: 2px solid #e10600;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.tercera-parte h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.videos div {
+    background-color: #292929;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 12px;
+    width: 33%;
+}
+
+.videos video {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.videos h3 {
+    color: #e10600;
+}
+
 /*Diseño del pie de página de la web*/
 footer {
     background-color:rgb(36, 35, 35);
