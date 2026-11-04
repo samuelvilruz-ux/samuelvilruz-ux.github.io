@@ -55,8 +55,7 @@ header {
     border-radius:4px;
 }
 /*Diseño Body de la web*/
-/*Sección 1 de inicio*/
-.primera-parte{
+.primera-parte, .segunda-parte, .tercera-parte {
     background-color: rgba(25, 25, 25, 0.88);
     text-align: center;
     border: 2px solid #e10600;
@@ -66,6 +65,7 @@ header {
     margin: 40px auto;
     padding: 20px;
 }
+/*Sección 1 de inicio*/
 #proxima-carrera{
     background-color: #292929;
     border: 5px solid #e10600;
@@ -80,7 +80,7 @@ header {
     align-items: center;
 }
 .texto-primero h2{
-    color: red;
+    color: white;
     font-size: 30px;
 }
 .texto-primero h3{
@@ -93,16 +93,7 @@ header {
     text-align: justify;
 }
 /*Sección 2 de inicio*/
-.segunda-parte{
-    background-color: rgba(25, 25, 25, 0.88);
-    text-align: center;
-    border: 2px solid #e10600;
-    border-radius: 12px;
-    width: 90%;
-    max-width: 1250px;
-    margin: 40px auto;
-    padding: 20px;
-}
+
 .segunda-parte h2 {
     color: white;
     font-size: 28px;
@@ -130,7 +121,7 @@ header {
     gap: 35px;
     padding: 10px;
 }
-#Russell{
+#Russell, #Antonelli, #Hamilton{
     background-color: #292929;
     text-align:center;
     border:5px solid  #e10600;;
@@ -138,33 +129,8 @@ header {
     padding:10px 10px 10px 10px;
     margin:10px auto;
 }
-#Antonelli{
-    background-color: #292929;
-    text-align:center;
-    border:5px solid  #e10600;;
-    width:250px;
-    padding:10px 10px 10px 10px;
-    margin:10px auto;
-}
-#Hamilton{
-    background-color: #292929;
-    text-align:center;
-    border:5px solid  #e10600;;
-    width:250px;
-    padding:10px 10px 10px 10px;
-    margin:10px auto;
-}
+
 /*Sección 3 de inicio*/
-.tercera-parte{
-    background-color: rgba(25, 25, 25, 0.88);
-    text-align: center;
-    border: 2px solid #e10600;
-    border-radius: 12px;
-    width: 90%;
-    max-width: 1250px;
-    margin: 40px auto;
-    padding: 20px;
-}
 .tercera-parte h2 {
     color: white;
     font-size: 28px;
