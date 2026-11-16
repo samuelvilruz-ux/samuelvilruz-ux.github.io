@@ -55,7 +55,7 @@ header {
     border-radius:4px;
 }
 /*Diseño Body de la web*/
-.primera-parte, .segunda-parte, .tercera-parte {
+.primera-parte, .segunda-parte, .tercera-parte{
     background-color: rgba(25, 25, 25, 0.88);
     text-align: center;
     border: 2px solid #e10600;
@@ -64,6 +64,47 @@ header {
     max-width: 1250px;
     margin: 40px auto;
     padding: 20px;
+}
+.presentacion {
+    background-color: rgba(25, 25, 25, 0.88);
+    text-align: justify;
+    border: 2px solid #e10600;
+    border-radius: 12px;
+
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.presentacion h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.presentacion p {
+    color: grey;
+    font-size: 15px;
+    max-width: 850px;
+    margin: 0;
+}
+.boton {
+    width: 75px;
+    display: inline-block;
+    background-color: #e10600;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.boton:hover {
+    background-color: #810d0d;
 }
 /*Sección 1 de inicio*/
 #proxima-carrera{
