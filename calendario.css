@@ -107,7 +107,6 @@ h2 {
 }
 table {
     width: 100%;
-    border-collapse: collapse;
     background-color: #202020;
     min-width: 650px;
 }
@@ -125,13 +124,13 @@ th {
 td {
     padding: 16px 12px;
     text-align: center;
-    border-bottom: 1px solid #383838;
+    border-bottom: 1px solid #393939;
 }
 tbody tr:nth-child(odd) {
     background-color: rgb(25, 25, 25);
 }
 tbody tr:nth-child(even) {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(30, 30, 30);
 }
 tbody tr:hover {
     background-color: rgb(105, 104, 104);
@@ -147,7 +146,7 @@ tbody td:nth-child(4) {
     color: #b6b6b6;
 }
 tbody td:nth-child(5) {
-    color: #ffbd00;
+    color: #990d0d;
     font-weight: bold;
 }
 
