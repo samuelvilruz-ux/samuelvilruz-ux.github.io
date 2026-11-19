@@ -45,6 +45,27 @@ header {
     padding:10px 15px;
     border-radius:4px;
 }
+.migas {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a0a0ab; 
+  background-color: #15151e; 
+  padding: 12px 20px;
+  border: 1px solid #2b2b36; 
+  border-radius: 6px; 
+  margin: 15px 0 20px 0;
+}
+
+.migas a {
+  color: white; 
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.migas a:hover {
+  color: #e10600; 
+}
 /*parte Css de la página enlaces*/
 .link h1{
     color: red;
