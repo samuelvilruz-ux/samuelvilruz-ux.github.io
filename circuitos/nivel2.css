@@ -1,0 +1,190 @@
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-image:url(../imagenes/fondo_web.webp);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+h2{
+    font-family: "Racing Sans One", sans-serif;
+}
+/*Diseño del encabezado de la web*/
+header {
+    background-color:rgb(36, 35, 35);
+    border-bottom:4px solid #e10600;
+    align-items:center;
+    padding:15px 30px;
+    gap:150px;
+    display: flex;
+}
+.logo{
+    align-items:center;
+    gap:15px;
+    display: flex;
+}
+.logo h1 {
+    color:white;
+    font-size:30px;
+}
+
+.listas ol {
+    align-items:center; 
+    margin:0;
+    padding:0;
+    display: flex;
+}
+.listas li {
+    display:inline-block;
+}
+.listas li:hover{
+    background-color: #e10600;
+    border-radius: 10px;
+}
+.listas a {
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:4px;
+}
+.migas {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a0a0ab; 
+  background-color: #15151e; 
+  padding: 12px 20px;
+  border: 1px solid #2b2b36; 
+  border-radius: 6px; 
+  margin: 15px 0 20px 0;
+}
+.migas a {
+  color: white; 
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+.migas a:hover {
+  color: #e10600; 
+}
+/*Diseño main de la web*/
+main {
+    width: 90%;
+    margin: 40px auto;
+}
+.presentacion {
+    background-color: rgba(25, 25, 25, 0.88);
+    border: 2px solid #e10600;
+    border-radius: 12px;
+    margin: 25px auto 20px auto;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+}
+.presentacion h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.presentacion p {
+    color: grey;
+    font-size: 15px;
+    max-width: 850px;
+    margin: 0;
+}
+.contenido {
+    width: 88%;               
+    max-width: 1400px;        
+    margin: 30px auto;        
+    padding: 0 10px;
+    flex: 1;                  
+}
+.contenido h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.contenido > p {
+    color: #aaa;
+    font-size: 1.05rem;
+    margin-bottom: 30px;
+}
+.diseño-silo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+.opciones {
+    background-color: rgba(25, 25, 25, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.opciones:hover {
+    transform: translateY(-10px);
+}
+.imagenes img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+.texto {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.opciones h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.opciones p {
+    color: #bbb;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.opciones .btn {
+    display: inline-block;
+    background-color: #e10600;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.opciones .btn:hover {
+    background-color: #b80500;
+}
+/*Diseño del pie de página de la web*/
+footer {
+    background-color:rgb(36, 35, 35);
+    border-top:4px solid #e10600; 
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:15px;
+    font-weight:bold;
+}
