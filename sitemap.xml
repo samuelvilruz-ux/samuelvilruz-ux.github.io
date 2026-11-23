@@ -4,42 +4,102 @@
 
   <url>
        <loc>https://samuelvilruz-ux.github.io/</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/index.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/circuitos.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/escuderias.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/monoplazas.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/calendario.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://samuelvilruz-ux.github.io/donde_ver.html</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
-       <priority>0.8000</priority>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/urbano.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/permanente.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/semiurbano.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/donde_ver</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://samuelvilruz-ux.github.io/enlaces</loc>
-       <lastmod>2026-10-21T11:12:59+00:00</lastmod>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
        <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/urbanos/baku.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/urbanos/marinabay.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/urbanos/montecarlo.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/permanentes/francorchamps.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/permanentes/suzuka.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/permanentes/silverstone.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/semiurbanos/villeneuve.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/semiurbanos/albertpark.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://samuelvilruz-ux.github.io/circuitos/semiurbanos/madring.html</loc>
+       <lastmod>2026-11-22T22:15:20+00:00</lastmod>
+       <priority>0.5120</priority>
   </url>
 </urlset>
