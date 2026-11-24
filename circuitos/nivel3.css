@@ -166,3 +166,14 @@ header {
     font-size: 15px;
     text-align: justify;
 }
+/*Diseño del pie de página de la web*/
+footer {
+    background-color:rgb(36, 35, 35);
+    border-top:4px solid #e10600; 
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:15px;
+    font-weight:bold;
+}
