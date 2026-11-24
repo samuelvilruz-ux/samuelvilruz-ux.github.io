@@ -51,7 +51,8 @@ header {
 .listas a {
     color:white;
     text-decoration:none;
-    padding:10px 15px;
+    display: block;
+    padding:10px 20px;
     border-radius:4px;
 }
 /*Diseño Body de la web*/
@@ -189,7 +190,7 @@ header {
 }
 .videos div {
     background-color: #292929;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 10px;
     padding: 12px;
     width: 33%;
@@ -202,7 +203,7 @@ header {
 }
 
 .videos h3 {
-    color: #e10600;
+    color: white;
 }
 
 /*Diseño del pie de página de la web*/

@@ -52,7 +52,8 @@ header {
 .listas a {
     color:white;
     text-decoration:none;
-    padding:10px 15px;
+    display: block;
+    padding:10px 20px;
     border-radius:4px;
 }
 .migas {

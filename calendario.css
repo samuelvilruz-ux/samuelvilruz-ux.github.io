@@ -51,7 +51,8 @@ header {
 .listas a {
     color:white;
     text-decoration:none;
-    padding:10px 15px;
+    display: block;
+    padding:10px 20px;
     border-radius:4px;
 }
 .migas {
@@ -147,7 +148,7 @@ td {
     border-bottom: 1px solid #393939;
 }
 tbody tr:nth-child(odd) {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(21, 21, 21);
 }
 tbody tr:nth-child(even) {
     background-color: rgb(30, 30, 30);
