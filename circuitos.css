@@ -134,10 +134,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .opciones:hover {
-    transform: translateY(-10px);
     border-color: rgb(253, 36, 36);
 }
 .imagenes img {
