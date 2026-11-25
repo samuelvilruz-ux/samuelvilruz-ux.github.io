@@ -138,6 +138,7 @@ main {
 }
 .opciones:hover {
     transform: translateY(-10px);
+    border-color: black;
 }
 .imagenes img {
     width: 100%;

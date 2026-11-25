@@ -107,7 +107,6 @@ header {
     gap: 40px;
 }
 .imagen {
-    flex: 1;
     background-color: #1c1c1c;
     padding: 25px;
     border-radius: 12px;
@@ -121,7 +120,6 @@ header {
     object-fit: contain;
 }
 .informacion {
-    flex: 1;
     background-color: #1c1c1c;
     padding: 25px;
     border-radius: 12px;
@@ -138,7 +136,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid grey;
     gap: 10px;
 }
 .dato span {
